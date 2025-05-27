@@ -26,3 +26,13 @@ The summary of the pan-sharpening methods
 | --------------------- | --------------------------------------------- | ------------------------------------------------------------ |
 | **PNN**               | Deep Learning                                 | Pansharpening Neural Network. 입력 이미지를 CNN으로 고해상도 MS로 예측.     |
 | **PanNet**            | Deep Learning                                 | Residual learning 기반 CNN. PAN과 MS의 차이를 학습하여 복원.              |
+
+---
+## Full-Resolution vs Reduced-Resolution
+|           |  **Full-Resolution(FR)**  |  **Reduced-Resolution(RR)**  |
+|-----------|---------------------------|------------------------------|
+| 입력 데이터 | 실제 PAN + MS          | 다운샘플된 PAN + MS          |
+| GT 유무  | ❌ 없음                 | ✅ 있음                    |
+| 평가 방식  | No-reference         | Reference-based         |
+| 대표 지표  | QNR, Dλ, Ds          | RMSE, PSNR, SSIM, SAM   |
+| 목적     | 실제 적용 시 품질 측정        | 정량 평가 (논문 비교 등)         |
