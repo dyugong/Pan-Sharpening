@@ -4,6 +4,9 @@ The summary of the pan-sharpening methods
 
 ---
 ## Traditional_Pan-Sharpening
+Resulted by ChatGPT
+
+
 | **기법 이름**             | **분류**                                        | **설명 (간단 요약)**                                               |
 | --------------------- | --------------------------------------------- | ------------------------------------------------------------ |
 | **Brovey**            | Traditional                                   | 비율 기반의 색 보정 방법. PAN을 MS에 비례적으로 분배하여 공간 해상도 강화.               |
@@ -22,6 +25,9 @@ The summary of the pan-sharpening methods
 
 ---
 ## DL_Pan-Sharpening
+Resulted by ChatGPT
+
+
 | **기법 이름**             | **분류**                                        | **설명 (간단 요약)**                                               |
 | --------------------- | --------------------------------------------- | ------------------------------------------------------------ |
 | **PNN**               | Deep Learning                                 | Pansharpening Neural Network. 입력 이미지를 CNN으로 고해상도 MS로 예측.     |
@@ -29,6 +35,9 @@ The summary of the pan-sharpening methods
 
 ---
 ## Full-Resolution vs Reduced-Resolution
+Resulted by ChatGPT
+
+
 |           |  **Full-Resolution(FR)**  |  **Reduced-Resolution(RR)**  |
 |-----------|---------------------------|------------------------------|
 | 입력 데이터 | 실제 PAN + MS          | 다운샘플된 PAN + MS          |
