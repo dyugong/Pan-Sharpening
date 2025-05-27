@@ -1,1 +1,1 @@
-"# Pan-Sharpening" 
+# Pan-Sharpening
