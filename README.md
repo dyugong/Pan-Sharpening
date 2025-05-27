@@ -21,5 +21,6 @@
 ---
 ## DL_Pan-Sharpening
 | **기법 이름**             | **분류**                                        | **설명 (간단 요약)**                                               |
+| --------------------- | --------------------------------------------- | ------------------------------------------------------------ |
 | **PNN**               | Deep Learning                                 | Pansharpening Neural Network. 입력 이미지를 CNN으로 고해상도 MS로 예측.     |
 | **PanNet**            | Deep Learning                                 | Residual learning 기반 CNN. PAN과 MS의 차이를 학습하여 복원.              |
