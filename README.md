@@ -1,5 +1,5 @@
 # Pan-Sharpening
-
+The summary of the pan-sharpening methods
 ---
 ## Traditional_Pan-Sharpening
 | **기법 이름**             | **분류**                                        | **설명 (간단 요약)**                                               |
